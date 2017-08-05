@@ -1,0 +1,1 @@
+../../arm-gnu-linux-androideabi/sysroot/lib/libgomp.spec
