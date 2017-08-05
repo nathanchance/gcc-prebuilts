@@ -1,0 +1,1 @@
+../../arm-linaro-linux-androideabi/sysroot/lib/libstdc++.so.6.0.24-gdb.py
