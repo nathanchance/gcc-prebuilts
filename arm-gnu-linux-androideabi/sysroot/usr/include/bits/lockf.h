@@ -40,7 +40,11 @@
 __BEGIN_DECLS
 
 #if defined(__USE_FILE_OFFSET64)
-int lockf(int, int, off_t) __RENAME(lockf64);
+
+#if __ANDROID_API__ >= 24
+int lockf(int, int, off_t) __RENAME(lockf64) __INTRODUCED_IN(24);
+#endif /* __ANDROID_API__ >= 24 */
+
 #else
 
 #if __ANDROID_API__ >= 24
