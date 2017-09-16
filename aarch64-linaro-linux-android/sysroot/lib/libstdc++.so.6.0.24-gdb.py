@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/nathan/Toolchains/build/out/aarch64-linaro-linux-android/share/gcc-7.2.1/python'
-libdir = '/home/nathan/Toolchains/build/out/aarch64-linaro-linux-android/aarch64-linaro-linux-android/lib/../lib64'
+pythondir = '/home/nathan/TCs/build/out/aarch64-linaro-linux-android/share/gcc-7.2.1/python'
+libdir = '/home/nathan/TCs/build/out/aarch64-linaro-linux-android/aarch64-linaro-linux-android/lib/../lib64'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

@@ -2,7 +2,7 @@
 
     It has been auto-edited by fixincludes from:
 
-	"/home/nathan/Toolchains/build/out/aarch64-linaro-linux-android/aarch64-linaro-linux-android/sysroot/usr/include/linux/a.out.h"
+	"/home/nathan/TCs/build/out/aarch64-linaro-linux-android/aarch64-linaro-linux-android/sysroot/usr/include/linux/a.out.h"
 
     This had to be done to correct non-standard usages in the
     original, manufacturer supplied header file.  */

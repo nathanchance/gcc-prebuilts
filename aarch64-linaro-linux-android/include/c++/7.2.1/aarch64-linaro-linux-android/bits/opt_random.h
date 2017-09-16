@@ -1,6 +1,6 @@
-// Optimizations for random number handling, generic version -*- C++ -*-
+// Optimizations for random number functions, aarch64 version -*- C++ -*-
 
-// Copyright (C) 2012-2017 Free Software Foundation, Inc.
+// Copyright (C) 2017 Free Software Foundation, Inc.
 //
 // This file is part of the GNU ISO C++ Library.  This library is free
 // software; you can redistribute it and/or modify it under the
@@ -33,6 +33,15 @@
 #pragma GCC system_header
 
 
+namespace std _GLIBCXX_VISIBILITY (default)
+{
+_GLIBCXX_BEGIN_NAMESPACE_VERSION
+
+
+
+
+_GLIBCXX_END_NAMESPACE_VERSION
+} // namespace
 
 
 #endif // _BITS_OPT_RANDOM_H
