@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/nathan/Toolchains/build/out/arm-linaro-linux-androideabi
+  prefix=/home/nathan/TCs/build/out/arm-linaro-linux-androideabi
 fi
 
 # Allow for alternate isysroot in which to find headers
