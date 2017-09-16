@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/nathan/Toolchains/build/out/arm-gnu-linux-androideabi/share/gcc-7.2.1/python'
-libdir = '/home/nathan/Toolchains/build/out/arm-gnu-linux-androideabi/arm-gnu-linux-androideabi/lib'
+pythondir = '/home/nathan/TCs/build/out/arm-gnu-linux-androideabi/share/gcc-7.2.1/python'
+libdir = '/home/nathan/TCs/build/out/arm-gnu-linux-androideabi/arm-gnu-linux-androideabi/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
