@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/nathan/Toolchains/build/out/aarch64-gnu-linux-android
+  prefix=/home/nathan/TCs/build/out/aarch64-gnu-linux-android
 fi
 
 # Allow for alternate isysroot in which to find headers
