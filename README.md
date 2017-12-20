@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+
+This repo will no longer be updated as I don't have the time. You can compile these toolchains yourself with either [crosstool-NG](https://crosstool-ng.github.io) or my [build-tools-gcc](https://github.com/nathanchance/build-tools-gcc) repo. For Linaro toolchains, you can download their prebuilts on [their releases site](https://releases.linaro.org/components/toolchain/binaries/).
+
 # Prebuilt GCC toolchains
 
 These are my personal toolchains, cross compiled for arm and arm64. They will always be up to date with the latest stable GCC (currently 7.1.1). I use them for compiling [Flash Kernel](https://github.com/nathanchance/angler). They are compiled with [crosstool-NG](http://crosstool-ng.github.io).
